@@ -5,6 +5,7 @@ a{
 .navbar-light {
 	background-color:transparent!important;
 	font-size:12px;
+	font-family: 'Poppins', sans-serif;
 }
 .navbar-light .navbar-nav .nav-link{
 	color:#fff;	

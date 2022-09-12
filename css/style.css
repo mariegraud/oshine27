@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=Poppins:wght@100;200;300;400;500&display=swap');
 body{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Crimson Text', serif;
 	font-size: 14px;
 	color: #888;
 }
 
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -14,9 +14,24 @@ header{
 	padding: 20px 0;
 }
 
+.nav-gris{
+	background-color: #e8e8e7;
+	
+}
+
+.nav-gris .navbar-nav .nav-link{
+	color: #908377;
+	
+}
+
+.bg-gris{
+	background-color: #f5f5f5;
+	
+}
+
 #footer-info{
 	background-color:#efefef;
-	padding: 1px 0;
+	padding: 10px 0;
 	color: #868686;
 }
 
@@ -43,9 +58,11 @@ header{
 	color: #af9f66;
 	font-weight: 600;
 	letter-spacing: 1px;
+	
 }
 
 #hero h1{
+	font-family: 'Crimson Text', serif;
 	font-size: 50px;
 	color: #fff;
 	font-weight: 400;
@@ -93,10 +110,11 @@ header{
 }
 
 .titulo{
+	font-family: 'Crimson Text', serif;
 	text-transform: uppercase;
 	color: #af9f66;
 	text-align: center;
-	letter-spacing: 4px;
+	letter-spacing: 7px;
 	font-size: 30px;
 	margin-bottom: 30px;
 	
@@ -105,9 +123,9 @@ header{
 	text-transform: uppercase;
 	color: #999794;
 	text-align: center;
-	letter-spacing: 4px;
+	letter-spacing: 6px;
 	font-size: 15px;
-	font-weight: 600; 
+	font-weight: 400; 
 	margin-bottom: 30px;
 }
 .parrafo{
@@ -183,4 +201,15 @@ header{
 	transition: all 0.4s ease-in-out;
 }
 
-
+.icon-contact{
+	background-color: #fff;
+	color: #fff;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	display: block;
+	border-radius: 100%;
+	font-size: 30px;
+	text-align: center;
+		
+}
